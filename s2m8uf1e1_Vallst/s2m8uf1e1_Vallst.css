@@ -1,0 +1,69 @@
+
+
+
+body{
+  background-color: #222;
+  font-family: Helvetica;
+}
+li{
+  float: left;
+}
+
+div{
+  height: : 175px;
+}
+
+h1{
+  color: #FFF;
+  font-size: 22px;
+  clear: both;
+}
+
+h2{
+  color: #CCC;
+  font-size: 14px;
+}
+
+h3{
+  color: #CCC;
+  font-size: 11px;
+}
+
+img{
+  border-radius: 5px;
+}
+
+
+#barra{
+  height: 50px;
+  background-color: black;
+  opacity: 50%;
+  color: #CCC;
+  position: fixed;
+
+}
+
+.esquerre{
+  float:right;
+}
+
+#Documentalsinteressants{
+  float: left;
+  margin-top: 40px;
+}
+
+#Documentalsvistos{
+  float: left;
+}
+
+#Películiespendents{
+  float: left;
+}
+
+#Películiesvistes{
+  float: left;
+}
+
+#Seriesseguint{
+  float: left;
+}
