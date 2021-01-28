@@ -1,0 +1,203 @@
+body{
+  background-color: #CAE6E8;
+}
+.cara{
+  height:400px;
+  width: 300px;
+  background-color:#F9E7D9;
+  float: left;
+  border-radius: 25% 25% 50% 50%;
+  position: absolute;
+  left:200px;
+  top:50px;
+}
+
+.cabell{
+  width: 300px;
+  border-top: 100px solid #000;
+ border-radius: 25% 25% 90% 90%;
+}
+
+.cabelldret{
+  width: 80px;
+  height:450px;
+  position: relative;
+  top: -6.2rem;
+  left:-2rem;
+  background-color: #000;
+  border-radius: 5rem 0 1rem 1rem;
+}
+
+.cabellesquerra{
+width: 80px;
+height:450px;
+position: relative;
+top: -34.3rem;
+left: 16rem;
+background-color: #000;
+border-radius: 0 5rem 1rem 1rem;
+}
+
+
+
+.ulls{
+  position:absolute;
+  left: 47px;
+  top: 130px;
+  width: 210px;
+  height: 40px;
+  z-index: 10;
+  border-radius: ;
+}
+
+
+.ulldret{
+  position: absolute;
+  top:0px;
+  right: 30px;
+  background: white;
+  border: 40px;
+  width: 50px;
+  margin-right: -17px;
+  display: inline-block;
+  border radius: 0 5rem 0 5rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 0 3rem 0 3rem;
+  background: #fff;
+  transform: rotate(135deg);
+  box-shadow: -9px -1px black;
+
+}
+
+.ulldret:hover{
+background-color: #DCB491;
+  box-shadow: -1px -9px black;
+  z-index: 20;
+}
+
+.ulldret:hover .pupiladret{
+  display:none;
+}
+
+.pupiladret{
+  width: 20px;
+  height: 20px;
+  background: #4E3523;
+  border-radius: 50%;
+  position: absolute;
+  left:16px;
+  top: 10px;
+}
+
+.ullesquerra{
+  position: absolute;
+  top:0px;
+  left:30px;
+  background: white;
+  border: 40px;
+  width: 50px;
+  heigth: 50px;
+  margin-right: -17px;
+  display: inline-block;
+  border radius: 50%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #fff;
+  border-radius: 0 3rem 0 3rem;
+  transform: rotate(135deg);
+  box-shadow: -0.5px 9px black;
+}
+
+
+.pupilaesquerra{
+  width: 20px;
+  height: 20px;
+  background: #4E3523;
+  border-radius: 50%;
+  position: absolute;
+  left:17px;
+  top: 10px;
+}
+
+
+
+.nas{
+   width: 15px;
+   height: 0px;
+   border-right: 20px solid transparent;
+   border-top: 50px solid transparent;
+   border-left: 50px solid #DFCBBC;
+   border-radius: 0 0 5px 0;
+   position:absolute;
+   top:180px;
+   left:130px;
+}
+
+.piercing{
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  position: absolute;
+  left:-2.5rem;
+  top:-1.2rem;
+  border-radius: 50%;
+  box-shadow: -0.5px 9px grey;
+}
+.llavi1{
+  width: 60px;
+  height: 30px;
+  background-color: #EE9494;
+  border-radius: 50%;
+  position: absolute;
+  top:3rem;
+  left:-5.5rem;
+}
+
+
+.llavi2{
+  width: 60px;
+  height: 30px;
+  background-color: #EE9494;
+  border-radius: 50%;
+  position: absolute;
+  top:3rem;
+  left:-1.8rem;
+}
+
+.boca{
+width: 119px;
+height: 23px;
+background-color: #EE9494;
+border-radius: 0 0 10rem 10rem;
+position: absolute;
+top:4rem;
+left:-5.5rem;
+}
+
+.arrecada1{
+  width: 60px;
+  height: 80px;
+  background-color: transparent;
+  border-radius: 50%;
+  position: absolute;
+  top:14rem;
+  left:-1rem;
+  border-style: solid;
+  border-color: grey;
+  transform: rotate(5deg);
+}
+
+.orella{
+  width: 60px;
+  height: 50px;
+  background-color:#F9E7D9;
+  position: absolute;
+  top:11rem;
+  left:-2rem;
+  transform: rotate(30deg);
+  border-radius: 20px 40px 20px 40px;
+
+
+}
