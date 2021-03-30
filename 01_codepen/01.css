@@ -1,0 +1,44 @@
+
+div {
+  height:5rem;
+  width:5rem;
+  margin:0.5rem;
+  background-color:tomato;
+}
+
+
+.patata001{
+  background-color:skyblue;
+  border-radius:1rem
+}
+.patata002{
+  background-color:pink;
+  border-radius:0rem 5rem
+}
+
+.patata003{
+  background-color:orange;
+  border-radius:2.5rem
+}
+
+.patata004{
+  background-color:olive;
+  border-radius:0 2.5rem 2.5rem 2.5rem
+}
+.patata005{
+  width: 0;
+  height:0;
+  background-color:transparent;
+  border-top:solid transparent 4rem;
+  border-right:solid transparent 4rem;
+  border-bottom:solid tomato 4rem;
+  border-left:solid transparent 4rem;
+}
+.patata006{
+ background-color:gold;
+ clip-path: polygon(45% 62%, 0% 100%, 100% 100%);
+}
+
+div:hover{
+  transform:rotate(45deg) skew(-5deg) translateX(5rem);
+}
