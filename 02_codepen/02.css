@@ -1,0 +1,106 @@
+.petal {
+  width:100px;
+  height:100px;
+  background-color:green;
+  border-radius:0 6rem;
+  position:absolute;
+  left:;
+  top:;
+}
+
+#p01 {
+  background-color:orange;
+  transform:rotate;
+  transform-origin: right bottom;
+  }
+#p02 {
+  background-color:olive;
+  transform:rotate(30deg);
+  transform-origin: right bottom;
+  }
+#p03 {
+  background-color:gold;
+  transform:rotate(60deg);
+  transform-origin: right bottom;
+  }
+
+#p04 {
+  background-color:orange;
+  transform:rotate(90deg);
+  transform-origin: right bottom;
+  }
+#p05 {
+  background-color:olive;
+  transform:rotate(120deg);
+  transform-origin: right bottom;
+  }
+#p06 {
+  background-color:gold;
+  transform:rotate(140deg);
+  transform-origin: right bottom;
+  }
+#p07 {
+  background-color:orange;
+  transform:rotate(170deg);
+  transform-origin: right bottom;
+  }
+#p08 {
+  background-color:olive;
+  transform:rotate(200deg);
+  transform-origin: right bottom;
+  }
+#p09 {
+  background-color:gold;
+  transform:rotate(230deg);
+  transform-origin: right bottom;
+  }
+#p010 {
+  background-color:orange;
+  transform:rotate(260deg);
+  transform-origin: right bottom;
+  }
+#p011 {
+  background-color:olive;
+  transform:rotate(290deg);
+  transform-origin: right bottom;
+  }
+#p012 {
+      background-color:gold;
+      transform:rotate(320deg);
+      transform-origin: right bottom;
+  }
+
+#cor{
+      background-color:grey;
+      width:50px;
+      position:absolute;
+      height:50px;
+      border-radius:50%;
+      top:75px;
+      left:75px;
+}
+
+
+.flor {
+          width: 250px;
+          height: 250px;
+          position: absolute;
+          top: 200px;
+          left: 200px;
+          transform: rotate(0deg);
+          background-color:;
+          animation: molinillo 2s infinite linear           normal;
+          transform-origin: 100px 100px;
+  }
+
+/* animación */
+
+@keyframes molinillo{
+  from {
+				transform: rotate(0deg);
+		}
+		to {
+				transform: rotate(359deg);
+		}
+
+}

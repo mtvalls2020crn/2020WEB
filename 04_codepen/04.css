@@ -1,0 +1,58 @@
+div {
+  transition:1s;
+  opacity:100%;
+
+}
+
+.contenidor{
+  width: 10rem;
+  height: 10rem;
+  margin: 200px auto;
+  perspective-origin: center;
+  perspective: 1000px;
+}
+
+.cub{
+
+  width: 10rem;
+  height: 10rem;
+  transform-style: preserve-3d;
+  transform-origin: center;
+}
+
+.cub:hover{
+  transform:rotateY(50deg);
+  transform-origin:center;
+
+}
+
+.frontal{
+  width:10rem;
+  height:10rem;
+  background:olive;
+}
+
+.dreta{
+  width:10rem;
+  height:10rem;
+  background:orange;
+  transform: translateX(10rem) translateY(-20rem) rotateY(90deg);
+  transform-origin:left;
+}
+
+.esquerra{
+  width:10rem;
+  height:10rem;
+  background:gold;
+  transform: translateX(-10rem) translateY(-10rem) rotateY(-90deg);
+  transform-origin:right;
+}
+
+.darrere{
+  width:10rem;
+  height:10rem;
+  background:tomato;
+  transform-origin:top;
+  transform: translateX(0rem) translateY(-20rem) translateZ(-10rem) rotateX(180deg);
+  transform-origin:top;
+}
